@@ -20,21 +20,21 @@
     font-weight: bold;
     padding: 10px 0;
 }
-.get-group form{
+.get-group .form{
     width: 50%;
     margin: 10px auto;
     padding: 8px;
     border: solid 1px #000;
     background-color: #fff;
 }
-.get-group form #search{
+.get-group .form #search{
     width: 80%;
     padding: 10px;
     background-color: #fff;
     background: #fff;
     border: solid 1px #fff;
 }
-.get-group form #btn{
+.get-group .form #btn{
     width: 20%;
 }
 .card {

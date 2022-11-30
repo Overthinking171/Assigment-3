@@ -35,10 +35,10 @@
                         <h1 class="title-text text-center">
                             Covid-19 Tracker
                         </h1>
-                        <form action="" class="d-flex justify-content-center">
-                            <input type="search" name="search" id="search">
-                            <button id="btn" class="btn-primary">Get Data</button>
-                        </form>
+                        <div class="form d-flex justify-content-center">
+                            <input type="input" name="search" id="search">
+                            <button id="btn" type="submit" class="btn-primary">Get Data</button>
+                        </div>
                     </div>
                     <div class="wrapper">
                         <div class="row ml-auto">
@@ -49,7 +49,7 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="title-text">Active Cases</p>
-                                    <p class="lead">265824</p>
+                                    <p class="lead" id="active">0</p>
                                 </div>
                             </div>
                             <!-- 2 -->
@@ -59,7 +59,7 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="title-text">New Cases</p>
-                                    <p class="lead">265824</p>
+                                    <p class="lead" id="new">0</p>
                                 </div>
                             </div>
                             <!-- 3 -->
@@ -69,7 +69,7 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="title-text">Recovered Cases</p>
-                                    <p class="lead">265824</p>
+                                    <p class="lead" id="recover">0</p>
                                 </div>
                             </div>
                             <!-- 4 -->
@@ -79,7 +79,7 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="title-text">Total Cases</p>
-                                    <p class="lead">265824</p>
+                                    <p class="lead" id="total">0</p>
                                 </div>
                             </div>
                             <!-- 5 -->
@@ -89,7 +89,7 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="title-text">Total Deaths</p>
-                                    <p class="lead">265824</p>
+                                    <p class="lead" id="deaths">0</p>
                                 </div>
                             </div>
                             <!-- 6 -->
@@ -99,7 +99,7 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="title-text">Total Tests</p>
-                                    <p class="lead">265824</p>
+                                    <p class="lead" id="test">0</p>
                                 </div>
                             </div>
 
@@ -108,8 +108,8 @@
                 </div>
             </div>
         </div>
+        <script src="script.js"></script>
     </main>
 </body>
-<script src="script.js"></script>
 
 </html>
