@@ -3,14 +3,18 @@
   padding: 0;
   list-style-type: none;
 }
+body{
+    background: rgba(2, 14, 53, 0.87)!important;
+}
 .box{
-  margin: 30px auto;
+  margin: 150px auto;
   align-content: center;
+  background: #F0F3FA;
 }
 .event{
     padding: 50px;
-    border: solid 1px #000;
     border-radius: 25px;
+    background: #F0F3FA;
 }
 .get-group{
     padding: 15px;
@@ -20,26 +24,27 @@
     font-weight: bold;
     padding: 10px 0;
 }
-.get-group form{
+.get-group .form{
     width: 50%;
     margin: 10px auto;
     padding: 8px;
     border: solid 1px #000;
     background-color: #fff;
 }
-.get-group form #search{
+.get-group .form #search{
     width: 80%;
     padding: 10px;
     background-color: #fff;
     background: #fff;
     border: solid 1px #fff;
 }
-.get-group form #btn{
+.get-group .form #btn{
     width: 20%;
 }
 .card {
   padding: 30px;
   border: solid 1px #000;
+  background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
 }
 .wrapper .row{
     width: 100%;
@@ -48,4 +53,18 @@
 }
 .card > *{
     text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+.btn-rgb{
+    color: #fff;
+    padding: 5px;   
+    background: #8C32F0 ;
+    transition: 0.5s ease-in-out;
+}
+.btn-rgb:hover{
+    background: #F0F3FA;
+    color: #000;
+    font-weight: bold;
+    border: solid 1px #000;
 }
